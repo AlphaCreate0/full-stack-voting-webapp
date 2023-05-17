@@ -1,0 +1,23 @@
+.custom-link {
+  color: #fe9000b0;
+  font-weight:500;
+  text-decoration: none;
+  position: relative;
+}
+
+.custom-link:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  border-bottom: 1px solid #fe9000b4;
+}
+
+.custom-link:visited {
+  color: #dd4d0b;
+}
+
+.custom-link:visited:after {
+  border-bottom-color: #dd4d0b;
+}
